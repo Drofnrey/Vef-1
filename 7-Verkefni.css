@@ -4,8 +4,8 @@
 body{
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.4em;
-    line-height: 1.6;
+    font-size: 1.3em;
+    line-height: 1.5;
     padding-left: 4rem;
     padding-right: 4rem;
     background-color: aliceblue;
@@ -27,11 +27,17 @@ h1{
 img{
     max-width: 100%;
     height: auto;
+    
 }
-
+hr{
+    width: 60rem;
+    margin-bottom: 2rem;
+}
 
 .col-map{
     float: right;
-
+}
+.mynd{
+    text-align: center;
 }
 
