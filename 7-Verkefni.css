@@ -4,10 +4,11 @@
 body{
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.3em;
-    line-height: 1.5;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    font-size: 1.4em;
+    line-height: 1.6;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: aliceblue;
 }
 header{
     background-color: rgb(68, 127, 199);
@@ -28,7 +29,9 @@ img{
     height: auto;
 }
 
+
 .col-map{
     float: right;
+
 }
 
