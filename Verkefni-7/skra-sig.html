@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skráningur</title>
+    <link rel="stylesheet" href="css/loka.css">
+</head>
+<body>
+
+
+    <nav class="navbanner">
+        <input type="checkbox" id="toggle">
+        <label for="toggle"></label>
+
+        <div class="divbanner">
+          <a href="index.html">The Color Run</a>
+          <a href="#">Hafðu samband</a>
+        </div>
+    </nav>
+    
+    <form>
+        <p>
+            <label>Nafn:</label><br>
+            <input type="text" name="first_name"> 
+        </p>
+        
+        <p>
+            <label>Kyn: </label>
+            <label>
+                <input type="radio" name="gender" value="Male">
+                Hann |
+            </label>
+            
+            <label>
+                <input type="radio" name="gender" value="Female">
+                Hún |
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="other-none-na">
+                Hán
+            </label>
+        </p>
+
+        <p>
+          <label>Símanúmer:</label><br>
+          <input type="tel" name="phone">
+      </p>
+
+        <p>
+            <label>Tölvupóstur:</label><br>
+            <input type="email" name="email" required="">
+        </p>
+
+        <p>
+            <label>Skilaboð:</label><br>
+            <textarea></textarea>
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" value="terms">
+                I agree to the <a>terms and conditions</a>
+            </label>
+        </p>
+        <p>
+            <button>Sign up</button>
+            <button type="reset">Reset form</button>
+            <button disabled="disabled">Disabled</button>
+            
+        </p>
+    </form>
+
+
+</body>
+</html>

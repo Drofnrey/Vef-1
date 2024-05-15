@@ -1,0 +1,86 @@
+table {
+	/* border-collapse sets the table's elements to share borders, rather than floating as separate "boxes". */
+	border-collapse: collapse;
+	width: 100%
+}
+
+td, th {
+	border: 1.5px solid rgb(255, 255, 255);
+	text-align: left;
+	padding: .5rem;
+}
+
+th {
+	background: white;
+}
+
+tr:nth-child(even) {
+	/* Set every other cell slightly darker. Improves readability. */
+	background: white;
+}
+
+table caption {
+    
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    margin-top: 2rem;
+	  margin-bottom: .5rem;
+    font-size: 3rem;
+}
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+  
+  /* general styling */
+  body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+  }
+
+
+.bakk {
+    background-color: rgb(255, 179, 255);
+}

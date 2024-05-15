@@ -1,0 +1,36 @@
+
+.chatbox {
+    flex-flow: column;
+    position: fixed;
+    bottom: 1rem;
+    right: -38rem;
+    z-index: 900;
+    max-width: 37rem;
+    background-color: rgb(125, 227, 255);
+    transition: all 0.5s;
+}
+
+#upp {
+    display: none
+}
+
+.chatbutt {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 990;
+    font-size: 2rem;
+    padding: 2px 13px;
+
+}
+
+#upp:checked ~ .chatbox {
+    right: 1rem;
+    transition: all 0.5s;
+}
+
+.senda {
+    text-align: center;
+    color: white;
+}
+

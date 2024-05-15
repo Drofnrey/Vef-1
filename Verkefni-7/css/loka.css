@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(255, 210, 255);
+}
+
+img {
+    max-width: 100%;
+}
+main {
+    max-width: 80rem;
+    margin: auto;
+}
+.logo {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.navbanner {
+    padding: 1rem;
+    margin: 0;
+} 
+
+.navbanner input {
+    display: none;
+}
+
+.navbanner label{
+    font-size: 1.5rem;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: rgb(255, 157, 227);
+    padding: 3px .5rem;
+    position: fixed;
+    right: 1rem;
+    top: .5rem;
+}
+
+.divbanner {
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    top: 3.3rem;
+    right: -25rem;
+    z-index: 900;
+    width: 80%;
+    background-color: rgb(255, 157, 227);
+    transition: all 0.5s;
+    padding: .5rem;
+}
+
+.divbanner a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.navbanner input:checked ~ .divbanner {
+    right: 1rem;
+    transition: all 0.5s;
+}
+
+@media screen and (min-width:48rem) {
+    .navbanner label{
+        display: none;
+    }
+    .divbanner {
+        flex-flow: row;
+        justify-content: space-around;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 90;
+        width: 100%;
+    }
+    .divbanner a {
+        padding: .5rem 1rem 0 1rem;
+    }
+    
+}
+
+.map {
+    margin-top: 5rem;
+    float: right;
+}
+
+.hlaupa {
+    margin-top: 5rem;
+    margin-right: 45rem;
+    margin-bottom: 20rem;
+
+    
+}
+
+.hlaupa h1 {
+    font-size: 4rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hlaupa p {
+    font-size: 18px;
+}
